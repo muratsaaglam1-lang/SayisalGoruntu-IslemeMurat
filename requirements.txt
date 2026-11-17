@@ -1,0 +1,10 @@
+# Test edilen sürümler (Python 3.14)
+numpy==2.5.4
+scipy==1.18.1
+opencv-python-headless==5.0.0.93
+scikit-image==0.26.0
+matplotlib==3.11.2
+pandas==3.1.1
+# Notebook çalıştırma
+ipykernel==7.4.0
+nbformat==5.11.1

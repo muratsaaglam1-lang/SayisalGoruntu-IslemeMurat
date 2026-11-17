@@ -1,0 +1,5 @@
+group,kind,n,area_median,solidity_median,solidity_p10,solidity_p90
+development,FP,1,507.0,0.596,0.596,0.596
+development,TP,217,3066.0,0.98,0.941,0.985
+test,FP,211,481.0,0.66,0.47,0.88
+test,TP,381,3010.0,0.977,0.905,0.984

@@ -1,0 +1,16 @@
+image_id,group,sequence,frame,ref_count,min_marker_area,median_marker_area,n_small_markers_lt300px
+DEV01,development,01,0,23,1125,1789.0,0
+DEV02,development,01,3,23,1181,1694.0,0
+DEV03,development,01,13,23,223,1649.0,1
+DEV04,development,01,31,24,972,1650.5,0
+DEV05,development,01,33,24,971,1712.0,0
+DEV06,development,01,35,24,696,1649.0,0
+DEV07,development,01,66,21,889,1649.0,0
+DEV08,development,01,69,21,1115,1649.0,0
+DEV09,development,01,71,21,889,1649.0,0
+DEV10,development,01,75,21,1162,1694.0,0
+VAL01,validation,01,44,24,881,1649.0,0
+VAL02,validation,01,53,21,1124,1649.0,0
+VAL03,validation,01,81,20,1245,1649.0,0
+VAL04,validation,01,85,21,179,1684.0,1
+VAL05,validation,01,86,21,45,1728.0,1

@@ -1,0 +1,88 @@
+{
+  "student": {
+    "name": "Murat Sağlam",
+    "student_no": "264327008"
+  },
+  "seed": 29034,
+  "dataset": {
+    "name": "Cell Tracking Challenge - Fluo-N2DH-GOWT1 (training)",
+    "url": "https://data.celltrackingchallenge.net/training-datasets/Fluo-N2DH-GOWT1.zip"
+  },
+  "selected_pipeline": "Pipeline B",
+  "selection_rule": "min validation MAE; eşitlikte RMSE, ortalama süre, karmaşıklık",
+  "validation_metrics": {
+    "val_MAE": 0.8,
+    "val_RMSE": 0.894,
+    "mean_time_s": 0.1044
+  },
+  "final_pipeline": {
+    "intensity": {
+      "method": "log",
+      "p_high": 99.9
+    },
+    "filter": {
+      "method": "gaussian",
+      "ksize": 9
+    },
+    "order": "filter_first",
+    "segmentation": {
+      "method": "adaptive_gaussian",
+      "block_size": 151,
+      "C": -20
+    },
+    "morphology": [
+      {
+        "op": "open",
+        "size": 7
+      },
+      {
+        "op": "close",
+        "size": 11
+      },
+      {
+        "op": "fill_holes"
+      }
+    ],
+    "separation": {
+      "method": "none"
+    },
+    "min_area": 300,
+    "clear_border": true,
+    "name": "Pipeline B"
+  },
+  "final_pipeline_readable": {
+    "intensity": "log(p_high=99.9)",
+    "filter": "gaussian(ksize=9)",
+    "segmentation": "adaptive_gaussian(block_size=151, C=-20)",
+    "morphology": "open7 -> close11 -> fill_holes",
+    "separation": "none",
+    "params": "min_area=300; kenar nesneleri çıkarıldı; filtre->yoğunluk"
+  },
+  "baseline_pipeline": {
+    "name": "Baseline",
+    "intensity": {
+      "method": "none"
+    },
+    "filter": {
+      "method": "none"
+    },
+    "segmentation": {
+      "method": "otsu"
+    },
+    "morphology": [],
+    "separation": {
+      "method": "none"
+    },
+    "min_area": 50
+  },
+  "baseline_min_area_selected_on_dev": 50,
+  "histogram_match_reference_dev_frame": 35,
+  "software": {
+    "python": "3.14.0",
+    "opencv": "5.0.0",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "scikit-image": "0.26.0"
+  },
+  "frozen_at_utc": "2026-11-14T14:24:07+00:00"
+}

@@ -1,0 +1,3 @@
+sequence,n_frames,shape,dtype,min,max,mean,std,p1,p50,p99,p99_9,zero_fraction,p99_9_per_frame_min,p99_9_per_frame_max
+01,92,1024x1024,uint8,0,255,3.97,12.57,0.0,0.0,68.0,139.0,0.573,125.0,157.0
+02,92,1024x1024,uint8,0,182,2.09,5.61,0.0,0.0,31.0,52.0,0.618,49.0,57.0

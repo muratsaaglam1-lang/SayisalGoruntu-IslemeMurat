@@ -1,0 +1,26 @@
+pipeline,image_id,ref_count,pred_count,error
+Pipeline A,VAL01,24,18,-6
+Pipeline A,VAL02,21,19,-2
+Pipeline A,VAL03,20,18,-2
+Pipeline A,VAL04,21,19,-2
+Pipeline A,VAL05,21,18,-3
+Pipeline B,VAL01,24,23,-1
+Pipeline B,VAL02,21,20,-1
+Pipeline B,VAL03,20,20,0
+Pipeline B,VAL04,21,20,-1
+Pipeline B,VAL05,21,20,-1
+Pipeline C,VAL01,24,23,-1
+Pipeline C,VAL02,21,20,-1
+Pipeline C,VAL03,20,20,0
+Pipeline C,VAL04,21,20,-1
+Pipeline C,VAL05,21,20,-1
+Pipeline D,VAL01,24,18,-6
+Pipeline D,VAL02,21,19,-2
+Pipeline D,VAL03,20,18,-2
+Pipeline D,VAL04,21,18,-3
+Pipeline D,VAL05,21,19,-2
+Baseline,VAL01,24,20,-4
+Baseline,VAL02,21,24,3
+Baseline,VAL03,20,26,6
+Baseline,VAL04,21,22,1
+Baseline,VAL05,21,21,0

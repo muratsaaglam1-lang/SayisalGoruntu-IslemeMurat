@@ -1,0 +1,6 @@
+pipeline,description,val_MAE,val_RMSE,val_bias,val_exact_acc,mean_time_s,complexity_steps,missed,false_pos,merged_objs,split_cells,selected,rank
+Pipeline A,Global eşik: G9 -> log -> Otsu -> open7/close11/fill,3.0,3.376,-3.0,0.0,0.0641,7,14,0,1,0,,3.0
+Pipeline B,Yerel eşik: G9 -> log -> adaptif Gauss -> open7/close11/fill,0.8,0.894,-0.8,0.2,0.1044,7,6,2,0,0,SEÇİLDİ,1.0
+Pipeline C,Pipeline B + distance transform/h-maxima watershed,0.8,0.894,-0.8,0.2,0.2989,8,6,2,0,0,,2.0
+Pipeline D,Arka plan çıkarma: G9 -> log -> top-hat(81) -> Otsu -> open7/close11/fill,3.0,3.376,-3.0,0.0,0.1332,8,15,1,1,0,,4.0
+Baseline,Referans amaçlı (seçime katılmaz),2.8,3.521,1.2,0.2,0.0332,1,33,0,0,18,(referans),

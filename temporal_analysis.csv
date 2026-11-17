@@ -1,0 +1,16 @@
+test_block,frames,series,counts,deltas,mean_abs_delta,n_changes,range
+B1,22-26,Gerçek,24 24 23 25 25,+0 -1 +2 +0,0.75,2,2.0
+B1,22-26,Baseline,20 23 20 18 18,+3 -3 -2 +0,2.0,3,5.0
+B1,22-26,Nihai pipeline,36 38 39 39 37,+2 +1 +0 -2,1.25,3,3.0
+B1,22-26,Baseline Δ-uyumu,,,2.25,2,
+B1,22-26,Nihai pipeline Δ-uyumu,,,2.0,4,
+B2,35-39,Gerçek,26 27 27 28 28,+1 +0 +1 +0,0.5,2,2.0
+B2,35-39,Baseline,21 20 23 23 22,-1 +3 +0 -1,1.25,3,3.0
+B2,35-39,Nihai pipeline,40 38 42 43 40,-2 +4 +1 -3,2.5,4,5.0
+B2,35-39,Baseline Δ-uyumu,,,1.75,4,
+B2,35-39,Nihai pipeline Δ-uyumu,,,2.5,3,
+B3,87-91,Gerçek,30 30 29 28 28,+0 -1 -1 +0,0.5,2,2.0
+B3,87-91,Baseline,24 23 22 20 20,-1 -1 -2 +0,1.0,3,4.0
+B3,87-91,Nihai pipeline,43 40 46 34 37,-3 +6 -12 +3,6.0,4,12.0
+B3,87-91,Baseline Δ-uyumu,,,0.5,1,
+B3,87-91,Nihai pipeline Δ-uyumu,,,6.0,3,

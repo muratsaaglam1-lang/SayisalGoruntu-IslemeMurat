@@ -1,0 +1,31 @@
+method,image_id,frame,missed,false_pos,merged,merged_cells,split
+Baseline,TST01,22,9,0,0,0,2
+Nihai pipeline,TST01,22,1,13,0,0,0
+Baseline,TST02,23,9,2,0,0,3
+Nihai pipeline,TST02,23,1,15,0,0,0
+Baseline,TST03,24,9,0,0,0,4
+Nihai pipeline,TST03,24,1,17,0,0,0
+Baseline,TST04,25,11,0,0,0,3
+Nihai pipeline,TST04,25,1,15,0,0,0
+Baseline,TST05,26,11,0,0,0,3
+Nihai pipeline,TST05,26,1,13,0,0,0
+Baseline,TST06,35,11,0,0,0,3
+Nihai pipeline,TST06,35,2,16,0,0,0
+Baseline,TST07,36,12,0,0,0,2
+Nihai pipeline,TST07,36,3,14,0,0,0
+Baseline,TST08,37,12,0,0,0,3
+Nihai pipeline,TST08,37,1,16,0,0,0
+Baseline,TST09,38,12,0,0,0,3
+Nihai pipeline,TST09,38,1,16,0,0,0
+Baseline,TST10,39,13,0,0,0,4
+Nihai pipeline,TST10,39,3,15,0,0,0
+Baseline,TST11,87,16,1,0,0,4
+Nihai pipeline,TST11,87,0,14,1,2,0
+Baseline,TST12,88,16,1,0,0,2
+Nihai pipeline,TST12,88,0,11,1,2,0
+Baseline,TST13,89,15,1,0,0,2
+Nihai pipeline,TST13,89,1,19,1,2,0
+Baseline,TST14,90,14,1,0,0,3
+Nihai pipeline,TST14,90,0,7,1,2,0
+Baseline,TST15,91,13,1,0,0,1
+Nihai pipeline,TST15,91,0,10,1,2,0
